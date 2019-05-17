@@ -1,0 +1,6 @@
+## Interface: 80100
+## Title: Raid Resource Calculator
+## Author: Tom Halecker, Florian Redinger
+## Version: 0.1
+
+main.lua
