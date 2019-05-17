@@ -1,6 +1,6 @@
 ## Interface: 80100
 ## Title: RaidResourceCalculator
-## Author: Tom Halecker
+## Author: Tom Halecker, Florian Redinger
 ## Version: 0.1
 
 RaidResourceCalculator.lua
