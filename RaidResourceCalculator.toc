@@ -1,6 +1,6 @@
 ## Interface: 80100
-## Title: Hello World
+## Title: RaidResourceCalculator
 ## Author: Tom Halecker
 ## Version: 0.1
 
-main.lua
+RaidResourceCalculator.lua
