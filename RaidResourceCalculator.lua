@@ -1,5 +1,5 @@
 local AddonName, RaidResourceCalculator = ...
-local mainFrameVisible
+local mainFrameVisible = false
 local mainFrame
 -- Possible console calls to open the addon
 SLASH_RAIDRESOURCECALCULATOR1 = '/rrc'
@@ -9,42 +9,63 @@ SLASH_RAIDRESOURCECALCULATOR3 = '/raidresourcecalculator'
 
 -- Parse console calls and arguments
 function SlashCmdList.RAIDRESOURCECALCULATOR(cmd, editbox)
-	local rqst, arg = strsplit(' ', cmd)
-	if rqst == "dev" then
-		RaidResourceCalculator:ToggleDevMode()
-	else
-		RaidResourceCalculator:ShowInterface()
-	end
+    local rqst, arg = strsplit(' ', cmd)
+    if rqst == "dev" then
+        RaidResourceCalculator:ToggleDevMode()
+    else
+        RaidResourceCalculator:ShowInterface()
+    end
 end
 
 -- reload UI from AddOn Call
-function RaidResourceCalculator:ToggleDevMode()
-    ReloadUI()
-end
+function RaidResourceCalculator:ToggleDevMode() ReloadUI() end
 
 -- ShowInterface is the entry point to the AddOns Interface
 -- TODO: add real interface
 function RaidResourceCalculator:ShowInterface()
-	if not mainFrameVisible then
-		createFrame()
+    if not mainFrameVisible then
+        createMainFrame()
 	else
-		mainFrame:Hide()
-		mainFrameVisible = false
+        mainFrame:Hide()
+        mainFrameVisible = false
 	end
+	print("Is Window shown?: ", mainFrameVisible)
 end
 
-function createFrame()
-    mainFrame = CreateFrame("Frame",nil,UIParent)
+function createMainFrame()
+
+	-- Generate Main window based on BasicFrameTemplate from Blizzard
+    mainFrame = CreateFrame("Frame", "RaidResourceCalculator", UIParent, "BasicFrameTemplate")
 	mainFrame:SetFrameStrata("BACKGROUND")
-	mainFrame:SetWidth(128) -- Set these to whatever height/width is needed 
-	mainFrame:SetHeight(64) -- for your Texture
+    mainFrame:SetSize(350, 350) -- Set these to whatever height/width is needed for your Texture
+	mainFrame:SetPoint("TOPRIGHT", UIParent, "CENTER")
 
-	local t = mainFrame:CreateTexture(nil,"BACKGROUND")
-	t:SetTexture("Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Factions.blp")
-	t:SetAllPoints(mainFrame)
-	mainFrame.texture = t
+	---- Setting Title to Main Window
+	mainFrame.title = mainFrame:CreateFontString(nil, "OVERLAY", "GameFontHighlight")
+	mainFrame.title:SetPoint("LEFT", mainFrame.TitleBg, "LEFT", 5, 1)
+	mainFrame.title:SetText("Raid Resource Calculator")
+	mainFrame.title:SetFont("Interface\\AddOns\\RaidResourceCalculator\\Fonts\\GothamNarrowUltra.ttf", 15, "OUTLINE")
 
-	mainFrame:SetPoint("CENTER",0,0)
+	-- Add lines to move frame
+	mainFrame:EnableMouse(true)
+    mainFrame:SetMovable(true)
+    mainFrame:SetClampedToScreen(true)
+    mainFrame:RegisterForDrag("LeftButton")
+    mainFrame:SetScript("OnDragStart", mainFrame.StartMoving)
+    mainFrame:SetScript("OnDragStop", mainFrame.StopMovingOrSizing)
+	
+	-- finishing frame creation
 	mainFrame:Show()
-	mainFrameVisible = true
+    mainFrameVisible = true
 end
+
+
+--[[
+	
+	local t = mainFrame:CreateTexture("nil", "BACKGROUND")
+    t:SetTexture(
+        "Interface\\Glues\\CharacterCreate\\UI-CharacterCreate-Factions.blp")
+    t:SetAllPoints(mainFrame)
+    mainFrame.texture = t
+
+]]
