@@ -1,0 +1,60 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
+        "projectName": "PageSwitcher",
+        "projectPath": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
+        "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

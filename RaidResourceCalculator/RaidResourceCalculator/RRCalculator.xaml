@@ -1,0 +1,38 @@
+﻿<Window x:Class="RaidResourceCalculator.RRCalculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RaidResourceCalculator"
+        xmlns:viewModel="clr-namespace:RaidResourceCalculator"
+        xmlns:converters="clr-namespace:RaidResourceCalculator.Converters"
+        d:DataContext="{d:DesignInstance viewModel:RRCViewModel}"
+        mc:Ignorable="d"
+        Title="Raid Resource Calculator" Height="720" Width="1280">
+    <Window.Resources>
+        <ResourceDictionary>
+            <converters:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter"/>
+            <ResourceDictionary.MergedDictionaries>
+                <ResourceDictionary Source="Resources/NoHoverListBoxItem.xaml"/>
+                <ResourceDictionary Source="Resources/MenuButton.xaml"/>
+            </ResourceDictionary.MergedDictionaries>
+        </ResourceDictionary>
+    </Window.Resources>
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="4*"/>
+        </Grid.ColumnDefinitions>
+        <ListBox x:Name="MenuList" Margin="0" Padding="-2,5,0,0" Grid.Column="0" Background="#c4c4c4" ItemsSource="{Binding MenuItems}" ItemContainerStyle="{StaticResource noHoverListBoxItem}">
+            <ListBox.ItemTemplate>
+                <DataTemplate>
+                    <Grid Height="50" HorizontalAlignment="Stretch" VerticalAlignment="Stretch">
+                        <Button Content="{Binding MenuText}" Command="{Binding MenuItemSelected}" Style="{StaticResource menuButton}" HorizontalAlignment="Stretch" HorizontalContentAlignment="Stretch" VerticalAlignment="Stretch"/>
+                    </Grid>
+                </DataTemplate>
+            </ListBox.ItemTemplate>
+        </ListBox>
+        <Frame Grid.Column="1" x:Name="PageSwitcher" Content="{Binding Navigator.NewPage}" NavigationUIVisibility="Hidden">
+        </Frame>
+    </Grid>
+</Window>
