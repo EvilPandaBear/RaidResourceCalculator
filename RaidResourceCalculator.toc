@@ -1,6 +1,9 @@
 ## Interface: 80100
-## Title: RaidResourceCalculator
-## Author: Tom Halecker
+## Title: |cff00ccffRaidResourceCalculator|r
+## Author: Tom Halecker, Florian Redinger, bananaboot
 ## Version: 0.1
+## DefaultState: enabled
+## SavedVariables: RaidResourceCalculatorDB
 
-RaidResourceCalculator.lua
+config.lua
+init.lua
