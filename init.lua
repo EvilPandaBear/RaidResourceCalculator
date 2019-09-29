@@ -60,6 +60,11 @@ end
 function RaidResourceCalculator:init(event, name)
 	if (name ~= "RaidResourceCalculator") then return end 
 
+	-- check if saved variables are set, if not create empty
+	if (type(RaidResourceCalculatorDB) == "table") then
+		RaidResourceCalculatorDB = {}; -- This is the first time this addon is loaded; initialize the count to 0.
+	   end
+
 	-- allows using left and right buttons to move through chat 'edit' box
 	for i = 1, NUM_CHAT_WINDOWS do
 		_G["ChatFrame"..i.."EditBox"]:SetAltArrowKeyMode(false);

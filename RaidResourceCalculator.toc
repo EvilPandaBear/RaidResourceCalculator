@@ -5,5 +5,5 @@
 ## DefaultState: enabled
 ## SavedVariables: RaidResourceCalculatorDB
 
-config.lua
+core.lua
 init.lua
