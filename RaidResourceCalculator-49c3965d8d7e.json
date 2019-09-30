@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "raidresourcecalculator-254322",
+  "private_key_id": "49c3965d8d7e87832d59d0e8e4438e5fc346c69a",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQCev+Wex1/cvlyM\nVnaiH94gksAeCn/G1c3U6ZUjdTIb/8EKinWYTxIS5BE1+wf7MgA63vb6ak4RhPq9\n2LFQaoG2NzYvIfXVyh5sPo5XD7TB+RlSx+ncDPjk5Z1XKJ5SNu0y1XepEAMTysH6\n8GKL8zZDZha22ciXP+C+7pWvUMR0hDm6Vd/mHIv9MJxYAWJeOT80nMHDsAU7aozY\ne0H930whRwzR4/caas5Ry8DICtB5MxZ6MH/S+/F3u0WZWH1qNPr3o8y6nRSHTZmf\nQiHaCH4vl6EQFS2gJgrDQFxgYDwmTCsZ9MyDk4Md1xocTpvNgpPZWpnEGWHZqUAg\nVq4te4IZAgMBAAECggEACCHGHEm0A0mkkcNJmTE29pXx3bAVvsybuj77Zuk1V4oU\nvEqerr5JK5rPd2OMM33KlXlvryD0LhFQ61nu7lLAYYJHRieQEWMkxxB2x+ar8J5H\nIe6P8BfhhY8uDcWMw6Mg6DBXbHt/nttNb8Jx19+t7Uqs2fHCxN2usHUmCYiigaHi\nL9kefsjmhHY6Gvzs72I09gQL85HqFKrFqSahtlp93sL3PPPWarGejXF/0wTSZDtR\n4HjVS4idBweD2LBmy4GAPrUrM8mQb0ZvgWPSQj1vRqSYnrhV+FEnwOF7MfS+VZ13\nMgUbZWtoSuYDT59KoOw7xztlm0ESoRgrP72y/Q9qAQKBgQDMYlaTrOPuCo/xJDBY\n2syEGSGTYhQ7jmgwLZVGEW5dP6vkQyeb+jqDfCZG9Q+L0jGbxlC6lIeWvRLWq6ES\nFz4ZTOwO1uy6JULvJWZ3CRB5snDO9W5GBM9SmRh01Gmr7mYmqGLE12QcRHwk9Hxq\nR/xhPZJziFcwm8qjlkkJ+oqeAQKBgQDG1zw1nIrr6SJbBa3yQqnLg5HU5VTbxVOz\nq/QEGmhk/dovDhibVKZbA9p45e3wlfwQ/92w83bHyHKMjrO2Z6efhxgFfzOesRcy\nuFzj6ujcSWI99AglFfocaNu6j4XzGq3hBiGzwEskhXhDEa4WF1+xOWh60+AEaN1W\nK/BI1ZoUGQKBgDVdl+2HPxxwdZUpNdZ9itkTFsk82ruSO3IY9NkOxBpk/aTkQ/te\nItkiGXx9kEmZ4IokBgAxuBWL2NdkiPIIT5ablydoxvbzs75trYt3Om4MQZhITTrL\nFrciclhO/ih+Xv3JCcEL3H/lAeVEURgPI77gLNUtzFZM12RPYVLRsFABAoGASEnj\nt9Hrp4ygUtsjvBmERVrV38JoMWXx4jY3hm5bWav4cHb9dys1N42VFbLx6C9+7mc3\nH6fDnSpAit0udLgGdrbUgtsV1zGmr2fbTXkPo1aCgud/Noxg24c7qv2WwyUF5fMm\nuYTFTMfBSxDYa2uf/HxUgaMZpEDDhxp+RtxxIbECgYAUPCs6Rr6xuLMjHlt6/1O0\nOaoZuMrjz9RQf+IOSkwPVBFIBwua0NallQccxSrjsdR+upmYP2ATp1afRKOymfYF\nx5/HzZFCmzjyZlL8nVainvnN7/1OirZVmgnUQ6Y6s/RGibogsfrakWY7bSaupVsy\nwoCUjEdITD0vnzhrfp97lg==\n-----END PRIVATE KEY-----\n",
+  "client_email": "foreverlove@raidresourcecalculator-254322.iam.gserviceaccount.com",
+  "client_id": "108198447645151812155",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/foreverlove%40raidresourcecalculator-254322.iam.gserviceaccount.com"
+}

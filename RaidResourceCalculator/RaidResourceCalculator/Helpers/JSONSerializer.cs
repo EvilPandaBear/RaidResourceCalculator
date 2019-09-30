@@ -8,6 +8,9 @@ using System.Threading.Tasks;
 
 namespace RaidResourceCalculator.Helpers
 {
+    /*
+     * Standard JSON Serializer - convert Objects do JSON String and JSON String to Object
+     */
     public class JSONSerializer
     {
         public String Serialize<T>(T data)

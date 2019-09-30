@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RaidResourceCalculator
 {
-    [DataContract(Name ="User")]
+    [DataContract]
     public class UserData : ObjectModel
     {
         private String name;
@@ -73,7 +73,7 @@ namespace RaidResourceCalculator
         {
             get { return feastMoneyPaid; }
             set {
-                if (Math.Abs(feastMoneyPaid - value) <= 0.000001)
+                if (Math.Abs(feastMoneyPaid - value) >= 0.000001)
                 {
                     feastMoneyPaid = value;
                     OnPropertyChanged(nameof(FeastMoneyPaid));
@@ -102,7 +102,7 @@ namespace RaidResourceCalculator
         {
             get { return feastBalance; }
             set {
-                if (Math.Abs(feastBalance - value) <= 0.000001)
+                if (Math.Abs(feastBalance - value) >= 0.000001)
                 {
                     feastBalance = value;
                     OnPropertyChanged(nameof(FeastBalance));

@@ -32,7 +32,7 @@
                 </DataTemplate>
             </ListBox.ItemTemplate>
         </ListBox>
-        <Frame Grid.Column="1" x:Name="PageSwitcher" Content="{Binding Navigator.NewPage}" NavigationUIVisibility="Hidden">
+        <Frame Grid.Column="1" x:Name="PageSwitcher" Content="{Binding Navigator.NewPage}" NavigationUIVisibility="Hidden" Background="#f0f0f0">
         </Frame>
     </Grid>
 </Window>

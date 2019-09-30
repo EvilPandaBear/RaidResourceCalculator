@@ -178,23 +178,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\flori\\.nuget\\packages\\": {},
-    "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Florian Redinger\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
+      "projectUniqueName": "G:\\Programmierung\\C#Projects\\RaidResourceCalculator\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
       "projectName": "PageSwitcher",
-      "projectPath": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
-      "packagesPath": "C:\\Users\\flori\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\flori\\Documents\\Programming\\CSharpRepositories\\RRCRepo\\RaidResourceCalculator\\PageSwitcher\\obj\\",
+      "projectPath": "G:\\Programmierung\\C#Projects\\RaidResourceCalculator\\RaidResourceCalculator\\PageSwitcher\\PageSwitcher.csproj",
+      "packagesPath": "C:\\Users\\Florian Redinger\\.nuget\\packages\\",
+      "outputPath": "G:\\Programmierung\\C#Projects\\RaidResourceCalculator\\RaidResourceCalculator\\PageSwitcher\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "c:\\program files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\flori\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Florian Redinger\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [

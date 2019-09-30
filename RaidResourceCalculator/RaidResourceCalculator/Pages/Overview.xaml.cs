@@ -1,4 +1,5 @@
-﻿using System;
+﻿using RaidResourceCalculator.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -20,10 +21,12 @@ namespace RaidResourceCalculator.Pages
     /// </summary>
     public partial class Overview : Page
     {
+        private readonly OverviewViewModel viewModel = new OverviewViewModel();
         public Overview()
         {
             InitializeComponent();
             ShowsNavigationUI = false;
+            DataContext = viewModel;
         }
     }
 }

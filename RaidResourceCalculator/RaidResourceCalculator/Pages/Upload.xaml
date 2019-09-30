@@ -8,7 +8,12 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Upload">
 
-    <Grid>
-        <TextBlock Text="Upload"/>
+    <Grid Margin="30" MinWidth="500" Height="30" VerticalAlignment="Top">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <TextBox x:Name="UploadLocationLink" Grid.Column="0"/>
+        <Button Content="Upload" Grid.Column="1"/>
     </Grid>
 </Page>

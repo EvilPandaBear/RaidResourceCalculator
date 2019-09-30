@@ -26,7 +26,7 @@
         "runtime": {
           "PresentationFramework.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -34,7 +34,7 @@
         "runtime": {
           "System.Xaml.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -42,7 +42,7 @@
         "runtime": {
           "WindowsBase.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -50,7 +50,7 @@
         "runtime": {
           "PresentationCore.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -58,7 +58,7 @@
         "runtime": {
           "System.Configuration.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -66,7 +66,7 @@
         "runtime": {
           "UIAutomationProvider.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -74,7 +74,7 @@
         "runtime": {
           "UIAutomationTypes.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -82,7 +82,7 @@
         "runtime": {
           "ReachFramework.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -90,7 +90,7 @@
         "runtime": {
           "System.Printing.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -98,7 +98,7 @@
         "runtime": {
           "Accessibility.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -106,7 +106,7 @@
         "runtime": {
           "System.Deployment.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -114,7 +114,7 @@
         "runtime": {
           "System.Security.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -122,7 +122,7 @@
         "runtime": {
           "System.Windows.Input.Manipulations.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -130,7 +130,7 @@
         "runtime": {
           "System.Windows.Forms.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       },
@@ -138,7 +138,7 @@
         "runtime": {
           "System.Runtime.Serialization.Formatters.Soap.dll": {
             "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.7.3062.0"
+            "fileVersion": "4.6.1055.0"
           }
         }
       }

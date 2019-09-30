@@ -4,11 +4,13 @@
       xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
       xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
       xmlns:local="clr-namespace:RaidResourceCalculator.Pages"
+        xmlns:viewModel="clr-namespace:RaidResourceCalculator.ViewModels"
+      d:DataContext="{d:DesignInstance viewModel:OverviewViewModel}"
       mc:Ignorable="d" 
       d:DesignHeight="450" d:DesignWidth="800"
       Title="Overview">
 
     <Grid>
-        <DataGrid HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+        <DataGrid HorizontalAlignment="Stretch" VerticalAlignment="Stretch" ItemsSource="{Binding UserData}" ColumnWidth="*"/>
     </Grid>
 </Page>

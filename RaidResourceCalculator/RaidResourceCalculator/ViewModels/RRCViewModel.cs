@@ -18,8 +18,10 @@ namespace RaidResourceCalculator
             InitMenuItems();
         }
 
+
         private void InitMenuItems()
         {
+            //Menu items - for page switcher
             MenuItems = new List<MenuItem>()
             {
                 new MenuItem(){MenuText="Show Data", NextPage=new Overview()},
